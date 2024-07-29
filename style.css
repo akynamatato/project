@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(https://s8.stc.all.kpcdn.net/russia/wp-content/uploads/2019/01/Altai-.jpg);
+    background-size: 100%;
+    height: 100vh;
+}
+.Hstart{
+    display: flex;
+    justify-content: space-between;
+}
+.Hpic{
+    display: flex;
+}
+.Hpic{
+    transition: .5s;
+}
+.Hpic:hover{
+    transition: .5s;
+    
+}
+.Hlist>ul>li{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    justify-content:end;
+    margin-right: 180px;
+}
+.Hl{
+    display: flex;
+}
+.Hl>li{
+    transition: .5s;
+    border-radius: 20px; 
+}
+.Hl>li:hover{
+    transition: .5s;
+    color: rgb(196, 146, 10) ;
+    border-radius: 20px;
+} 
+.Hpic>div>img{
+    margin: 5px;
+    padding: 5px;
+}
+.logo{
+    width: 95px; 
+    height: 60px;
+    font-size: 40px;
+    margin-left: 280px;
+    color: rgb(196, 146, 10) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    transition: .5s;
+    border-radius: 20px;   
+}
+.logo:hover{
+    transition: .5s;
+    color: rgb(8, 8, 8) ;
+    border-radius: 20px;
+} 
+.Htitle>h3{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(196, 146, 10) ;
+    padding-top: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;    
+}
+.Hbattun{
+    display: flex;
+    justify-content: center;
+}
+.Bone{
+    transition: .5s;
+}
+.Btwo{
+    transition: .5s;
+    background-color: rgba(240, 248, 255, 0);
+    border: solid 2px rgb(196, 146, 10);
+}
+.Bone:hover{
+    transition: .5s;
+    background-color: rgba(240, 248, 255, 0);
+}
+.Btwo:hover{
+    transition: .5s;
+    background-color:rgb(196, 146, 10) ;
+}
+.Hbattun>input{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0 40px 0 40px;
+}
+.Bone{
+    background-color: rgb(196, 146, 10) ;
+}
+.Mplace>h3{
+    text-align: center;
+    font-size: 50px;
+}
+.Mplace>hr{
+    border: solid 2px rgb(196, 146, 10);
+    width: 100px;
+}
+.Mpic>div>img{
+    width: 350px;
+    height: 200px;
+}
+.Mpic{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 350px;
+    height: 500px;
+    border: solid 1px gray;
+}
+.card>h3{
+    text-align: center;
+    font-size: 25px;
+}
+.card>p{
+    margin-left: 10px;
+    color: rgb(154, 156, 158);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card>a{
+    margin-left: 10px;
+    color: rgb(196, 146, 10) ;
+    font-size: 22px;
+}
+.card>ul>li{
+    font-size: 20px;
+    color: rgb(73, 74, 75);
+}
+.Mwhy>h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.Mwhy>hr{
+    border: solid 2px rgb(196, 146, 10);
+    width: 100px;
+}
+.why{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.Mleft{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.Mleft>img{
+    margin: 5px;
+}
+.Mright>div>h3{
+    margin-top: 55px;
+    font-size: 25px;
+}
+.Mright>div>p{
+    color: rgb(73, 74, 75) ;
+    font-size: 17px;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Mbest>h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.Mbest>hr{
+    border: solid 2px rgb(196, 146, 10);
+    width: 100px;
+}
+.Mbestpic{
+    margin-top: 100px;
+}
+.Mquestion>h3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+.Mquestion>hr{
+    border: solid 2px rgb(196, 146, 10);
+    width: 100px;
+}
+.qpic{
+    display: flex;
+    justify-content: center;
+}
+.qpic>img{
+    margin:100px 200px 0 200px;
+}
+.part{
+    margin-top: 100px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+}
+.part>p{
+    margin-top: 30px;
+    text-align: center;
+}
+.send>p{
+    margin: 50px 0 30px 380px;
+    font-size: 20px;
+    color: rgb(73, 74, 75)  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ;
+}
+.Bmes{
+    display: flex;
+    justify-content: center;
+}
+.Bmes>input{
+    color: rgb(150, 148, 146);
+    width: 350px;
+    height: 40px;
+    margin: 20px;
+}
+.Byour{
+    display: flex;
+    justify-content: center;
+}
+.Byour>input{
+    color: rgb(150, 148, 146);
+    width: 1148px;
+    height: 112px;
+}
+.Bsend{
+    display: flex;
+    justify-content: end;
+}
+.Bsend>input{
+    background-color: rgb(12, 150, 12);
+    border-style: none;
+    border-radius: 20px;
+    width: 178px;
+    height: 43px;
+    color: aliceblue;
+    font-size: 15px;
+    margin: 20px 378px 0 0;
+}
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: aliceblue;
+}
+.Flist{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Flist>div{
+    padding: 0;
+    width: 300px;
+    height: 520px;
+}
+.car>h3{
+    font-size: 30px;
+    padding: 5px;
+}
+.car>hr{
+    margin: 0;
+    border: solid 2px rgb(196, 146, 10);
+    width: 70px;
+}
+.car>p{
+    color: rgb(170, 170, 170);
+    font-size: 18px;
+}
+.car>ul>li{
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+}
+.inp{
+    margin-left: 20px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(46, 45, 45);
+    color: rgb(170, 170, 170);
+}
+@media (max-width: 1475px){
+    .Hl{
+        display: none;
+    }
+    .droplist{
+        display: inline-block;
+    }
+}
+@media (max-width: 1261px ) {
+    header{
+        height: 95vh;
+    }
+}
+@media (max-width: 1075px) {
+    header{
+        height: 70vh;
+    }
+    .why{
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    .Htitle>h3{
+        padding-top: 50px;
+    }
+    .Byour>input{
+        width: 1025px;
+        height: 100px;
+    }
+    .Mpic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 987px) {
+    .Htitle>h3{
+        padding-top: 50px;
+    }
+    .Byour>input{
+        width: 980px;
+        height: 100px;
+    }
+}
